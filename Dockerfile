@@ -18,5 +18,5 @@ RUN npm install -g gatsby-cli
 # Bundle app source
 # COPY . .
 
-EXPOSE 8000
+# EXPOSE 8000
 # CMD [ "nodemon", "server.js" ]

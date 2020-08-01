@@ -12,5 +12,5 @@ services:
     volumes:
       - ./:/home/node/app
     ports:
-      - "8000:8000"
-    command: "gatsby develop"
+      - "8088:8088"
+    command: "gatsby develop --host 0.0.0.0 --port 8088"
